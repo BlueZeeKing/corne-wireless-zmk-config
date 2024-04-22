@@ -51,4 +51,13 @@
                         >;
                 };
         };
+        combos {
+            compatible = "zmk,combos";
+            combo_bspc {
+                timeout-ms = <50>;
+                key-positions = <16 17>;
+                bindings = <&kp BSPC>;
+            };
+        };
 };
+
