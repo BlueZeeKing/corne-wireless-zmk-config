@@ -46,7 +46,7 @@
                     hold-trigger-on-release;
                     hold-while-undecided;
                 };
-        }
+        };
         
         keymap {
                 compatible = "zmk,keymap";
